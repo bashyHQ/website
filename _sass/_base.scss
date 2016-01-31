@@ -24,7 +24,7 @@ body {
   }
 }
 
-.post, .page {
+.post, .page, section {
   @include outer-container;
   article {
     @include span-columns(9);

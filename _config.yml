@@ -1,10 +1,9 @@
 # Site settings
 title: Bashy
+logo_url: http://www.opensourcebash.org/img/sprites/logos-big.svg
 claim: "OpenSource for Humans"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  OpenSource is the giant all of modern tech is standing on. At Bashy we provide services and products to keep this giant up, fit and healthy. On top we improve it wherever we can – making sure the human doesn't fall short of technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bashy.io" # the base hostname & protocol for your site
 twitter_username: bashyHQ
@@ -13,3 +12,5 @@ facebook_page: ben
 contact_email: " ben at create-build-execute dot com"
 # Build settings
 markdown: kramdown
+
+hero_image: http://c1.staticflickr.com/5/4046/4333386510_89928d2553_b.jpg
