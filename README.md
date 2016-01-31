@@ -6,7 +6,7 @@ Website hosted at www.bashy.io
 Clone the repo to your local system. Then install [jekyll](http://jekyllrb.com) through bundler:
 
 ```
-  bundle install --path vendor/bundle
+  bundle install --path .vendor/bundle
 ```
 
 ## Run
