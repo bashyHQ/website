@@ -10,6 +10,14 @@
     </svg>
 
   bg_image: /assets/projects/awwy.png
+- title: Beavy
+  short_desc: Beavy is a modular, multi-purpose social community development framework.
+  url: /projects/beavy/
+  featured: true
+  icon: >
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg xmlns="http://www.w3.org/2000/svg" height="1000" width="928" viewBox="0 0 1000 928"><path d="M743 394.5q74 14 121 67.5t47 149.5q0 113 -65 168t-158 55l-112 0q-46 0 -79 33t-33 79q-92 0 -157.5 -65.5t-65.5 -157.5l0 -112q0 -29 6 -56l106 0q2 0 4.5 1t4.5 1q-9 23 -9 54l0 112q0 56 44 88 67 -88 179 -88l112 0q111 0 111 -112 0 -96 -80 -109 21 -48 24 -108zm-279 -229l-223 0q-39 0 -64 11t-34 33 -11 35 -2 32q0 112 111 112l112 0q111 0 179 89 44 -33 44 -89l0 -112q0 -65 -34 -88t-78 -23zm0 -112q92 0 158 57.5t66 165.5l0 112q0 92 -65.5 157.5t-158.5 65.5q0 -46 -33 -79t-78 -33l-112 0q-93 0 -158 -55t-65 -168q0 -114 65 -168.5t158 -54.5l223 0z" fill="#FFFFFF"/></svg>
+
 - title: Launchpage
   short_desc: A quick'n'easy Jekyll-Based and Mailchimp backed Launchrock-Like Webpage for your OpenSource Project.
   icon: >
@@ -19,9 +27,10 @@
   bg_image: /assets/projects/launchpage.png
   url: /projects/launchpage/
   featured: true
+
 - title: OpenSourceBash
   short_desc: An real-live event where multiple OpenSource Teams appeal to future contributors.
-  featured: true
+  featured: false
   icon: >
     <?xml version="1.0" encoding="UTF-8"?>
     <!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
