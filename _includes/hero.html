@@ -1,0 +1,21 @@
+
+<div class="hero">
+
+  <div class="hero-background" {% if include.image %}style="background-image:url({{include.image}})"{% endif %} ></div>
+
+	<div class="hero-inner">
+    {% if include.with_logo %}
+      <a href="{{site.base_url}}" class="hero-logo"><img src="{{site.logo_url}}
+    " alt="{{site.title}} Logo Image"></a>
+    {% endif %}
+    <div class="hero-copy">
+      {% if include.title %}
+        <h1>{{include.title}}</h1>
+      {% endif %}
+
+      {% if include.desc %}
+        <p>{{include.desc}}</p>
+      {% endif %}
+    </div>
+	</div>
+</div>
