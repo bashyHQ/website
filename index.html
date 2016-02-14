@@ -7,6 +7,22 @@ bodytags: with_hero blogpost
 
 <section>
   <h2>Projects</h2>
+
+  <div class="grid-items">
+    {% for project in site.data.projects %}
+      <a href="{{project.url}}" class="grid-item {% if project.featured %}grid-item-big{% endif %}">
+        {% if project.bg_image %}
+          <div class="bg-image" style="background-image:url({{project.bg_image}})"></div>
+        {% endif %}
+        {% if project.icon %}
+          <span class="icon">{{project.icon}}</span>
+        {% endif %}
+        <h1>{{project.title}}</h1>
+        {{project.short_desc|markdownify}}
+      </a>
+    {% endfor %}
+  </div>
+
 </section>
 
 <section>

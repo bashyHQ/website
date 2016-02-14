@@ -1,0 +1,17 @@
+- title: AreWeWebYet
+  short_desc: A website to give the user insight on whether they can use **Rust** for web development yet.
+  url: /projects/arewewebyet/
+  icon: 🚥
+  bg_image: /assets/projects/awwy.png
+- title: Launchpage
+  short_desc: A quick'n'easy Jekyll-Based and Mailchimp backed Launchrock-Like Webpage for your OpenSource Project.
+  icon: 🚀
+  bg_image: /assets/projects/launchpage.png
+  url: /projects/launchpage/
+  featured: true
+- title: OpenSourceBash
+  short_desc: An real-live event where multiple OpenSource Teams appeal to future contributors.
+  featured: true
+  icon: ✨
+  url: /projects/opensourcebash/
+  bg_image: /assets/projects/opensourcebash.png
