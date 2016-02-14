@@ -1,6 +1,6 @@
 ---
 layout: page
-bodytags: with_hero blogpost
+bodytags: with_hero home
 ---
 
 {% include hero.html with_logo=true title=site.claim desc=site.description %}
@@ -9,7 +9,8 @@ bodytags: with_hero blogpost
   <h2>Projects</h2>
 
   <div class="grid-items">
-    {% for project in site.data.projects %}
+    {% for kv in site.data.projects %}
+      {% assign project=kv[1] %}
       <a href="{{project.url}}" class="grid-item {% if project.featured %}grid-item-big{% endif %}">
         {% if project.bg_image %}
           <div class="bg-image" style="background-image:url({{project.bg_image}})"></div>
@@ -18,7 +19,9 @@ bodytags: with_hero blogpost
           <span class="icon">{{project.icon}}</span>
         {% endif %}
         <h1>{{project.title}}</h1>
-        {{project.short_desc|markdownify}}
+        {% if project.short_desc %}
+          {{ project.short_desc | markdownify }}
+        {% endif %}
       </a>
     {% endfor %}
   </div>

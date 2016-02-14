@@ -9,7 +9,6 @@
 
   background: (linear-gradient(-55deg, #ea8711,#d96363,#73a6df,#9085fb,#52ca79));
 
-  padding-bottom: 3em;
   padding-top: 2em;
   position: relative;
 
@@ -21,7 +20,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.2;
+    opacity: 0.1;
     position: absolute;
     z-index: 1;
     background-size: cover;
@@ -35,14 +34,11 @@
   .hero-inner {
     @include outer-container;
     @include clearfix;
-    margin: auto;
-    padding: 3.5em;
-    text-align: center;
     z-index: 2;
     position: relative;
+    margin-top: 15em;
 
     .hero-copy {
-      text-align: center;
 
       h1 {
         color: $hero-color;
@@ -64,6 +60,28 @@
           max-width: 60%;
         }
       }
+    }
+  }
+}
+
+.home .hero {
+  padding-bottom: 3em;
+
+  .hero-inner {
+    padding: 3.5em;
+    text-align: center;
+    margin: auto;
+    .hero-copy {
+      text-align: center;
+    }
+  }
+}
+
+.project, .blogpost {
+  .hero .hero-inner .hero-copy {
+    h1 {
+      font-weight: 200;
+      font-size: 4em;
     }
   }
 }

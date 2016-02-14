@@ -1,0 +1,9 @@
+---
+layout: default
+bodytags: with_hero project
+---
+{% assign project=site.data.projects[page.project] %}
+
+{% include hero.html image=project.bg_image title=project.title %}
+
+{{ content }}
