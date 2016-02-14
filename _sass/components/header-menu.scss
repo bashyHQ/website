@@ -34,8 +34,14 @@ header.navigation {
     border-bottom: 0;
     transition: 0.5s;
     &:hover {
-      background-color: white;
+      background-color: transparentize(white, 0.5);
       transition: 0.5s;
+      li.nav-link a {
+        color: $action-color;
+        &:hover {
+          color: darken($action-color, 25%);
+        }
+      }
     }
   }
 
@@ -100,6 +106,7 @@ header.navigation {
     padding: 0;
     width: 100%;
     z-index: 9999;
+    line-height: 60px;
 
     &.show {
       display: block;
@@ -114,7 +121,7 @@ header.navigation {
 
   // The nav items
 
-  ul li.nav-link {
+  li.nav-link {
     background: $navigation-background;
     display: block;
     line-height: $navigation-height;

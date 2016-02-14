@@ -5,12 +5,9 @@
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-
-          {% for page in site.pages %}
-            {% if page.title %}
-            <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
+        <li class="nav-link"><a href="/about/">About</a></li>
+        <li class="nav-link"><a href="/projects/">Projects</a></li>
+        <li class="nav-link"><a href="/contact/">Contact</a></li>
       </ul>
     </nav>
 
