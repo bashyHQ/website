@@ -37,7 +37,7 @@
     height: $grid-item-height;
     overflow: hidden;
     outline: none;
-    padding: 2em;
+    padding: 1.5em 2em;
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -65,10 +65,23 @@
   }
   .grid-item .icon {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 2em;
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    margin-bottom: 1em;
+    > svg {
+      vertical-align: unset;
+      width: 1.125em;
+      line-height: 2em;
+      padding-top: 0.2em;
+    }
   }
 
-  .grid-item img{
+  .grid-item img {
     display: block;
     height: 3em;
     margin: 0 auto 1em;
