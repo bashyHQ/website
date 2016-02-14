@@ -7,12 +7,14 @@
   $hero-color: white;
   $gradient-angle: 10deg;
 
-  @include background(linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top));
-  background-color: #324766;
+  background: (linear-gradient(-55deg, #ea8711,#d96363,#73a6df,#9085fb,#52ca79));
+
   padding-bottom: 3em;
   position: relative;
 
   .hero-background {
+    position: relative;
+    min-height: 400px;
     @include background(center center fixed);
     top: 0;
     left: 0;
