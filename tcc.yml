@@ -1,0 +1,82 @@
+
+# the name of the project
+name: "Bashy.IO"
+
+# Describe the project in a one-line elevator pitch
+tagline: Taking care of the People in OpenSource
+
+# Which renderer to use?
+renderer: tcc
+
+# Version of the document
+version: 1.01
+
+# last change
+date: Feb 15th, 2016 – 12:08
+
+
+problems:
+# Please describe the problems you want to solve
+  - OpenSource Work is taken for granted
+  - working in FLOSS is hard and often under appreciated work
+  - too many people suffer and burn out
+  - our tooling has mostly focussed on providing infrastructure and governance
+  - we often fail to think of the 'human aspects' in our field of work
+
+solutions:
+# what is the proposed solution to them?
+  - a (non-profit) Organisation, which builts tools and provides services to improve the 'infrastructure for the peopel behind open source' – specifically around subject often overlooked like diversity, communication and (mental) health
+
+alternatives:
+# what other alternatives are people currently using (even in the physical world) to scratch that itch?
+  - Outreachy
+  - Rails Girls Summer of Code
+
+purpose:
+# what is the higher purpose behind this project?
+  - improve the life quality of people in open source, strengthen the community and make OpenSource overall more resilient
+
+impact_metrics:
+# what are key metrics showing the impact you are making towards the purpose?
+  - number projects deployed
+  - buzz around the projects
+  - users per project
+  - money raised to fund endevours
+  - people being part of the bashy organisation
+
+benefactors:
+# who are you targeting? Who is the solution for? What will help you mkae that impact?
+  - OpenSource Developers, Maintainers, Teams
+  - Marginalizes Groups and People
+  - OpenSource as a whole
+
+partners:
+# Anyone you want to single out because they will be the first to take this solution and help you get it there?
+  - Mozilla?
+  - Apache?
+
+channels:
+# how will the benefactors and partners learn about the project/product/service?
+  - marketing of new projects when launched
+  - Personal contacts
+  - Social Media
+  - as part of the bashy community
+
+build:
+# what does it cost? In both MONEY AND TIME? Put the highest costs first (time is more expensive than money
+  costs:
+    - initial build of websites
+    - hosting (free on gh-pages)
+    - blog posts announcing it
+  coverage:
+    - personal time
+
+execute:
+  costs:
+   - hosting costs
+   - maintanance costs
+  coverage:
+   - hosted for free on gh-pages
+   - maintance through personal time and contributors
+   - donations (later stage)
+   - project grants/funding

@@ -27,6 +27,12 @@ Just Fork, Change and send a PR. If you want to make bigger changes you aren't s
 
 By contributing you agree to having the code licensed as specified below.
 
+## Tech Creation Canvas
+
+Here is the Tech Creation Canvas for the Bashy.IO Organisation:
+
+![](/assets/tcc.png)
+
 # License
 
 Please understand that this repo is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. For more information please look at the LICENSE file in the root of this project!

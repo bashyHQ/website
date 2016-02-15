@@ -3,7 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
- 
+
+## Tech Creation Canvas
+
+Bashy is a transparent endevour, as such we share everything with the community. Here is our [Tech Creation Canvas](/project/tech-creation-canvas/) – [editor link here](http://canvas.bashy.io/#github=bashyHQ/website):
+
+![](/assets/tcc.png)
 
 ## Credits
 
