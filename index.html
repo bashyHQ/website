@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 bodytags: with_hero home
 ---
 
@@ -34,5 +34,18 @@ bodytags: with_hero home
 
 
 <section>
-  <h2>Latest Updates</h2>
+  <h2>Latest Updates<a href="{{ "/feed.xml" | prepend: site.baseurl }}"> <svg xmlns="http://www.w3.org/2000/svg" width='0.75em' height="0.75em" viewbox="0 0 1000 928"><path d="M784 946.5q0 -208 -103 -384.5t-279 -279 -384 -102.5l0 -127q181 0 346.5 71t285 190 190.5 285 71 347l-127 0zm-256 0q0 -211 -150 -360.5t-360 -149.5l0 -129q173 0 320 86t232.5 233 85.5 320l-128 0zm-254 0q0 -106 -75 -181t-181 -75l0 -127q158 0 270.5 112t112.5 271l-127 0zm-129 0l-127 0l0 -127q53 0 90 37t37 90z" fill="#EEEEEE"/></svg>
+</a></h2>
+
+
+  <ul class="post-list">
+    {% for post in site.posts | limit: 3 %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
 </section>

@@ -1,5 +1,9 @@
 ---
 layout: default
+bodytags: with_hero
 ---
 
-{{ content }}
+{% include hero.html image=page.image title=page.title %}
+<div class="page">
+  {{ content }}
+</div>

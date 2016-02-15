@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+h3 {
+  font-size: 1.35em;
+}
+
 /**
  * Icons
  */
@@ -23,11 +27,21 @@ body {
   }
 }
 
-.post, .page, section {
+.page, section {
   @include outer-container;
-  article {
-    @include span-columns(9);
-  }
+}
+
+.post {
+  max-width: 50em;
+  margin: 2em auto;
+}
+.post-header {
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+.post-content {
+  font-size: 1.25em;
+  font-weight: 200;
 }
 
 section:after {
@@ -37,4 +51,17 @@ section:after {
   text-align: center;
   margin-left: 25%;
   margin-top: 0.25em;
+}
+
+.social-links {
+  float: right;
+  text-align: right;
+  li {
+    display: inline-block;
+  }
+}
+
+.rss-subscribe {
+    text-align: center;
+    padding: 2em;
 }
