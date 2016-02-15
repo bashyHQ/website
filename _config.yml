@@ -1,6 +1,6 @@
 # Site settings
 title: Bashy
-logo_url: http://www.opensourcebash.org/img/sprites/logos-big.svg
+logo_url: /assets/bashy.svg
 claim: "Taking care of the People in OpenSource"
 description: > # this means to ignore newlines until "baseurl:"
   OpenSource is the giant all of modern tech is standing on. At Bashy we provide services and products to keep this giant up, fit and healthy. On top we improve it wherever we can – making sure the human doesn't fall short of technology.
