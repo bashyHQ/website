@@ -14,3 +14,8 @@ contact_email: " ben at create-build-execute dot com"
 markdown: kramdown
 
 hero_image: http://c1.staticflickr.com/5/4046/4333386510_89928d2553_b.jpg
+
+mailchimp:
+  server: http://bashy.us12.list-manage.com
+  user: 78092809e918ff81694633576
+  id: 2113bfe5cb

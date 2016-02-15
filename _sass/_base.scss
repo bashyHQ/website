@@ -26,6 +26,9 @@ h3 {
     }
   }
 }
+.page, .post {
+  margin-bottom: 5em;
+}
 
 .page, section {
   @include outer-container;
@@ -44,6 +47,19 @@ h3 {
   font-weight: 200;
 }
 
+
+.formInput {
+  margin: 2em 0 4em 0;
+  padding: 3em;
+  border: 1px solid #e0dd03;
+  background: #f5f4ad;
+  input, button {
+    display: inline-block;
+    max-width: 65%;
+    vertical-align: top;
+  }
+}
+
 section:after {
   width: 50%;
   border-bottom: 1px #eee solid;
@@ -51,6 +67,18 @@ section:after {
   text-align: center;
   margin-left: 25%;
   margin-top: 0.25em;
+}
+
+.splitpane {
+  display: flex;
+  padding-bottom: 3em;
+  .post-list {
+    flex-grow: 1;
+  }
+  .formInput {
+    margin: 0 2em;
+    flex-grow: 2;
+  }
 }
 
 .social-links {
