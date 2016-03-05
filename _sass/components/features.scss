@@ -39,6 +39,18 @@
     background: adjust-hue($action-color, -140%);
   }
 
+  .bullet-icon-4 {
+    background: adjust-hue($action-color, -240%);
+  }
+
+  .bullet-icon-5 {
+    background: adjust-hue($action-color, -30%);
+  }
+
+  .bullet-icon-6 {
+    background: adjust-hue($action-color, -100%);
+  }
+
   .bullet-content {
     margin-left: $icon-bullet-size * 1.4;
     margin-bottom: 2em;
