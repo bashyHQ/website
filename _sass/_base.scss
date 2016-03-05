@@ -26,12 +26,15 @@ h3 {
     }
   }
 }
-.page, .post {
-  margin-bottom: 5em;
-}
 
 .page, section {
   @include outer-container;
+}
+
+.page, .post {
+  margin-bottom: 5em;
+  padding: 1em;
+  max-width: 980px;
 }
 
 .post {
