@@ -1,0 +1,15 @@
+<ul class="features">
+  {% for feature in include.features %}
+    <li class="bullet">
+      <div class="bullet-icon bullet-icon-{{forloop.index}}">
+        {% if feature.icon_url %}
+          <img src="{{feature.icon_url}}" alt="">
+        {% endif %}
+      </div>
+      <div class="bullet-content">
+        <h2>{{feature.name}}</h2>
+        <p>{{feature.desc | markdownify}}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
