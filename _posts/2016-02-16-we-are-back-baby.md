@@ -6,6 +6,7 @@ date: 2016-02-16
 image: http://www.arewewebyet.org/assets/screenshot.png
 
 tags:
+  - rust
   - awwy
 
 source:
